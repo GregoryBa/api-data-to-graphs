@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1>Customer status</h1>
+<div class="jumbotron text-center">
+  <div id="customers-div">
+    {% for customer in customer_stat %}
+    <span id="customer-span-right">{{ customer_stat[customer] }}</span>
+    <p id="customer-p-left">{{ customer }} :</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

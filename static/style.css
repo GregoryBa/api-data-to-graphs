@@ -1,0 +1,82 @@
+table, th, tr {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.graph-div {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttons_div {
+  margin-bottom: 5%;
+}
+
+.form_div {
+  text-align: left;
+  vertical-align: middle;
+  display: flex;
+  margin-left: 20%;
+}
+
+.form_div form {
+  margin-right: 2%;
+}
+
+.graph-div-customer {
+  width: 100%;
+}
+
+#graph_wins_last_year {
+  background-color: red;
+}
+
+#graph_wins_per_customer {
+  background-color: blue;
+}
+
+#raw-data-div {
+  margin-top: 5%;
+  margin-left: 20%;
+  text-align: left;
+}
+
+#div-averages {
+  width: 100%;
+  display: flex;
+  font-family: "arial";
+  font-size: 130%;
+}
+
+#div-averages #value {
+  margin-left: 2%;
+}
+
+#checkbox-div {
+  display: flex;
+}
+
+#customers-div {
+  vertical-align: left;
+  text-align: left;
+  font-family: "arial";
+  font-size: 110%;
+}
+
+#customer-span-right {
+  float:right
+}
+
+#customer-p-left {
+  text-align: left;
+}
+
+#main-graph-div {
+  text-align: left;
+  font-family: "arial";
+  font-size: 120%;
+}
+
+h2 {
+  text-align: left;
+}

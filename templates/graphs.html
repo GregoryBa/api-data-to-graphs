@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<h1>Choose your graph</h1>
+	<div class="jumbotron text-center">
+		<div id="main-graph-div">
+			<p><a href="/graphs/wins-last-year">01. Number of won deals per month the last year</a></p>
+			<p><a href="/graphs/wins-per-customer">02. Total value of won deals per customer the last year</a></p>
+		</div>
+
+		<div class="graph_wins_last_year"></div>
+		<div class="graph_wins_per_customer"></div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+{% endblock %}

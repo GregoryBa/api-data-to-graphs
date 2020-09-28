@@ -1,0 +1,59 @@
+<div class="jumbotron text-center">
+
+    <div class="graph-div">
+      <canvas id="chart_deals_won"></canvas>
+    </div>
+
+    <h2>Settings:</h2>
+    <div id="checkbox-div">
+      <form>
+        <select id='type' onchange='typeCheckbox()'>
+          <option selected>Select type of graph</option>
+          <option value="bar">Bar</option>
+          <option value="line">Line</option>
+          <option value="radar">Radar</option>
+          <option value="pie">Pie</option>
+          <option value="doughnut">Doughnut</option>
+          <option value="polarArea">Polar Area</option>
+        </select>
+        <noscript><input type="submit" value="Submit"></noscript>
+      </form>
+
+      <form>
+        <select id='bgColors' onchange='colorBgCheckbox()'>
+          <option selected>Select a background color</option>
+          <option value="#233067">Indigo Dark</option>
+          <option value="#494e7f">Indigo Medium</option>
+          <option value="#6d6e98">Indigo Light</option>
+          <option value="#751aff">Purple Dark</option>
+          <option value="#8080ff">Purple Medium</option>
+          <option value="#b3b3ff">Purple Light</option>
+          <option value="#ff0000">Red Dark</option>
+          <option value="#ff4d4d">Red Medium</option>
+          <option value="#ff8080">Red Light</option>
+        </select>
+        <noscript><input type="submit" value="Submit"></noscript>
+      </form>
+
+      <form">
+        <select id='borderColors' onchange='colorBorderCheckbox()'>
+          <option selected>Select a border color</option>
+          <option value="#233067">Indigo Dark</option>
+          <option value="#494e7f">Indigo Medium</option>
+          <option value="#6d6e98">Indigo Light</option>
+          <option value="#751aff">Purple Dark</option>
+          <option value="#8080ff">Purple Medium</option>
+          <option value="#b3b3ff">Purple Light</option>
+          <option value="#ff0000">Red Dark</option>
+          <option value="#ff4d4d">Red Medium</option>
+          <option value="#ff8080">Red Light</option>
+        </select>
+        <noscript><input type="submit" value="Submit"></noscript>
+      </form>
+    </div>
+
+    <button onclick="showData()" id="button-show-data">Show raw data</button>
+    <div id="raw-data-div">
+    </div>
+
+</div>

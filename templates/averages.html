@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+	<h1>Averages</h1>
+
+	<div class="jumbotron text-center">
+		<div id="div-averages">
+			<div id="average-text">Average deal value last year:  </div>
+			<div id="value">{{ average }}</div>
+		</div>
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+{% endblock %}

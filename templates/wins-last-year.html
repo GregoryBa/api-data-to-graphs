@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+
+<h2>Won deals last year</h2>
+{% include 'includes/_graph-settings.html' %}
+
+	<script type="text/javascript" src="{{ url_for('static', filename='chart_wins_last_year.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='chart_options.js') }}"></script>
+{% endblock %}
